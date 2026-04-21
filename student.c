@@ -10,17 +10,20 @@ void addStudent() {
     printf("How many students you want to add: ");
     scanf("%d", &n);
 
-    for(i = 0; i < n; i++) {
+    for(i = 1; i <= n; i++) {
 
-        if(count >= 100) {
+        if(count > 100) {
             printf("Max limit reached!\n");
             break;
         }
 
-        printf("\nEnter details of student %d\n", i + 1);
+        printf("\nEnter details of student %d\n", i );
 
-        printf("Enter ID: ");
-        scanf("%d", &s[count].id);
+        s[count].id=i;
+        printf("ID= %d",s[count].id);
+        
+       /*printf("Enter ID: ");
+        scanf("%d", &s[count].id);*/
 
         printf("Enter name: ");
         scanf(" %49[^\n]", s[count].name);
