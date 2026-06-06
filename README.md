@@ -1,4 +1,4 @@
-COLLEGE FEE MANAGEMEN SYSYTEM
+COLLEGE FEE MANAGEMEN SYSYTEM->
 
 A terminal-based college fee manager written in C. 
 Handles everything on the admin side.
@@ -13,6 +13,7 @@ Handles everything on the admin side.
 
 
 -----USAGE-----
+
 Compile
 bashgcc main.c -o fee_management
 Run
