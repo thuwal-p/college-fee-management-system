@@ -38,6 +38,8 @@ gcc main.c -o fee_management
 AUTHENTICATION
 1. Login
 2. Register New Admin
+
+
 ------MAIN MENU-----
 1. Add Student
 2. Pay Fees
